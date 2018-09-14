@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#282125</color>
+    <color name="colorPrimaryDark">#282125</color>
+    <color name="colorAccent">#ED3D96</color>
+
+    <color name="primary_dark_grey">#363d3f</color>
+    <color name="secondary_dark_grey">#5b6468</color>
+    <color name="light_grey">#8f9a9d</color>
+    <color name="stats_green">#15d26a</color>
+    <color name="stats_red">#f03155</color>
+    <color name="colorWhite">#ffffff</color>
+
+    <color name="color_dark_transparent">#90000000</color>
+    <color name="color_grey_transparent">#90e2e2e2</color>
+    <color name="facebookLoginButtonColor">#4a6eaa</color>
+    <color name="googleLoginButtonColor">#e26144</color>
+
+    <color name="header_first">#E59D59</color>
+    <color name="header_second">#9B5F64</color>
+    <color name="header_third">#95A7AE</color>
+    <color name="header_fourth">#274057</color>
+    <color name="e2_grey">#e2e2e2</color>
+    <color name="bt_black">#282125</color>
+    <color name="bt_white">#ffffff</color>
+    <color name="bt_light_gray">#5b6468</color>
+
+</resources>

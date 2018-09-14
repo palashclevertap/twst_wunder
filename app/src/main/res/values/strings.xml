@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Wuunder_Android_Test</string>
+
+    <string name="rationale_location">This app needs access to your location.</string>
+    <string name="rationale_ask_again">This app may not work correctly without the requested permissions. Open the app settings screen to modify app permissions.</string>
+    <string name="setting">Settings</string>
+    <string name="cancel">Cancel</string>
+
+
+    <string name="home">Cars</string>
+    <string name="trending">Trending</string>
+    <string name="offers">Maps</string>
+    <string name="More">Profile</string>
+    <string name="bag">Notifications</string>
+    <string name="some_error_occured">Some error occurred please try again</string>
+
+    <string name="google_api_key_map">AIzaSyBuZGwWdr57zS0DCBzkc1craghLak11O3I</string>
+    <string name="fa_tags">&#xf02c;</string>
+    <string name="fa_home">&#xf015;</string>
+    <string name="fa_trending">&#xf110;</string>
+    <string name="fa_bag">&#xf290;</string>
+    <string name="fa_more">&#xf141;</string>
+
+    <string name="fa_wish_new">&#xf0ca;</string>
+    <string name="fa_history">&#xf1da;</string>
+
+    <string name="fa_volume_control_phone">&#xf2a0;</string>
+
+    <string name="fa_thumbs_o_up">&#xf087;</string>
+    <string name="fa_map_pin">&#xf276;</string>
+    <string name="fa_pencil">&#xf040;</string>
+
+
+    <string name="fa_search">&#xf002;</string>
+    <string name="fa_wishlist">&#xf08a;</string>
+    <string name="fa_wishlist_filled">&#xf004;</string>
+    <string name="fa_close">&#xf057;</string>
+    <string name="fa_email">&#xf0e0;</string>
+    <string name="fa_share">&#xf1e0;</string>
+    <string name="fa_order_history">&#xf2b0;</string>
+    <string name="fa_user_account">&#xf007;</string>
+    <string name="fa_contact">&#xf10b;</string>
+    <string name="fa_female">&#xf182;</string>
+    <string name="fa_logout">&#xf011;</string>
+
+    <string name="fa_plus_circle">&#xf055;</string>
+    <string name="fa_password">&#xf084;</string>
+    <string name="fa_dob">&#xf073;</string>
+    <string name="fa_phone">&#xf095;</string>
+    <string name="fa_drop_down">&#xf142;</string>
+    <string name="fa_sub">&#xf056;</string>
+    <string name="fa_close_alone">&#xf00d;</string>
+    <string name="fa_angle_right">&#xf105;</string>
+    <string name="fa_angle_down">&#xf107;</string>
+    <string name="fa_angle_up">&#xf106;</string>
+    <string name="fa_edit">&#xf040;</string>
+    <string name="fa_add">&#xf067;</string>
+    <string name="fa_address">&#xf2bc;</string>
+    <string name="fa_subscribe">&#xf1ea;</string>
+
+
+
+    <string name="no_data">NO DATA</string>
+    <string name="retry">Retry</string>
+
+
+</resources>
+

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayoutRL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <include
+        android:id="@+id/include_tool_bar"
+        layout="@layout/title_toolbar"></include>
+
+
+    <FrameLayout
+        android:id="@+id/fl_tab_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rl_tab_container"
+        android:layout_below="@+id/include_tool_bar">
+
+    </FrameLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/rl_tab_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:clickable="true"
+        android:gravity="bottom">
+
+        <RelativeLayout
+            android:id="@+id/tab_border"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true">
+
+            <View
+                android:id="@+id/preferenceDivider"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/colorPrimary" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/bottomLayoutLL"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_below="@id/tab_border"
+            android:layout_centerInParent="true"
+            android:background="@color/colorPrimary"
+            android:orientation="horizontal">
+
+
+
+            <RelativeLayout
+                android:id="@+id/rl_car_tab"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.clevertap.wuunder_android_test.ui.views.IconView
+                        android:id="@+id/home_icon_view"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:text="@string/fa_home"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="@dimen/text_size_large" />
+
+                    <com.clevertap.wuunder_android_test.ui.views.AppTextViewRegular
+                        android:id="@+id/home_tab_label"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/home"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rl_maps_tab"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.clevertap.wuunder_android_test.ui.views.IconView
+                        android:id="@+id/offer_icon_view"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:text="@string/fa_tags"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="@dimen/text_size_large" />
+
+
+                    <com.clevertap.wuunder_android_test.ui.views.AppTextViewRegular
+                        android:id="@+id/offer_tab_label"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/offers"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_notification_tab"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.clevertap.wuunder_android_test.ui.views.IconView
+                        android:id="@+id/bag_icon_view"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:text="@string/fa_bag"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="@dimen/text_size_large" />
+
+                    <com.clevertap.wuunder_android_test.ui.views.AppTextViewRegular
+                        android:id="@+id/bag_label"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bag"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_profile_tab"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginBottom="4dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <com.clevertap.wuunder_android_test.ui.views.IconView
+                        android:id="@+id/more_icon_view"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:clickable="false"
+                        android:gravity="center"
+                        android:paddingTop="8dp"
+                        android:text="@string/fa_more"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="@dimen/text_size_large" />
+
+                    <com.clevertap.wuunder_android_test.ui.views.AppTextViewRegular
+                        android:id="@+id/more_tab_label"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/More"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/pop_up_window_map_relative_layout"
+    android:layout_width="280dp"
+    android:layout_height="140dp"
+    android:background="@color/colorWhite">
+
+
+
+    <com.clevertap.wuunder_android_test.ui.views.AppTextViewRegular
+        android:id="@+id/user_name_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="Palash Jain"
+        android:textSize="@dimen/text_size_small" />
+
+
+    <com.clevertap.wuunder_android_test.ui.views.AppTextViewRegular
+        android:id="@+id/address_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_name_text_view"
+        android:layout_marginRight="16dp"
+        android:maxLines="2"
+        android:text=""
+        android:textSize="@dimen/text_size_extra_small" />
+
+    <com.clevertap.wuunder_android_test.ui.views.AppTextViewRegular
+        android:id="@+id/engineType_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/address_text_view"
+        android:layout_marginTop="4dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text=""
+        android:textSize="@dimen/text_size_small" />
+
+    <com.clevertap.wuunder_android_test.ui.views.AppTextViewRegular
+        android:id="@+id/exterior_text_view"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/engineType_text_view"
+        android:layout_marginRight="8dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text=""
+        android:textSize="@dimen/text_size_extra_small" />
+
+
+
+
+
+        <com.clevertap.wuunder_android_test.ui.views.AppTextViewRegular
+            android:id="@+id/interior_text_view"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_below="@id/exterior_text_view"
+            android:layout_marginLeft="8dp"
+            android:maxLines="1"
+            android:text=""
+            android:textSize="@dimen/text_size_extra_small" />
+
+
+
+
+
+
+</RelativeLayout>
